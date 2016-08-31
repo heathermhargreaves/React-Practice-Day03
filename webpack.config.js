@@ -1,6 +1,6 @@
 module.exports = {
 	entry: {
-		main: "./router/App.js"
+		main: "./dm12/App.js"
 	},
 	output: {
 		path: "./public",
@@ -13,7 +13,7 @@ module.exports = {
 				test: /\.js$/,
 				exclude: /node_modules/,
 				loader: "babel"
-			}	
-		]	
+			}
+		]
 	}
 }
